@@ -2,22 +2,22 @@
 <testng-results ignored="1" total="3" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-04-01T11:43:41Z" name="Suite1" finished-at="2018-04-01T11:43:41Z" duration-ms="292">
+  <suite started-at="2018-04-01T11:50:15Z" name="Suite1" finished-at="2018-04-01T11:50:15Z" duration-ms="267">
     <groups>
       <group name="unit">
-        <method signature="SampleTest.first()[pri:0, instance:samples.SampleTest@351d00c0]" name="first" class="samples.SampleTest"/>
+        <method signature="SampleTest.first()[pri:0, instance:samples.SampleTest@1ddf84b8]" name="first" class="samples.SampleTest"/>
       </group> <!-- unit -->
       <group name="web">
-        <method signature="SampleTest.second()[pri:0, instance:samples.SampleTest@351d00c0]" name="second" class="samples.SampleTest"/>
+        <method signature="SampleTest.second()[pri:0, instance:samples.SampleTest@1ddf84b8]" name="second" class="samples.SampleTest"/>
       </group> <!-- web -->
     </groups>
-    <test started-at="2018-04-01T11:43:41Z" name="test1" finished-at="2018-04-01T11:43:41Z" duration-ms="122">
+    <test started-at="2018-04-01T11:50:15Z" name="test1" finished-at="2018-04-01T11:50:15Z" duration-ms="111">
       <class name="samples.SampleTest">
-        <test-method signature="first()[pri:0, instance:samples.SampleTest@351d00c0]" started-at="2018-04-01T11:43:41Z" name="first" finished-at="2018-04-01T11:43:41Z" duration-ms="7" status="PASS">
+        <test-method signature="first()[pri:0, instance:samples.SampleTest@1ddf84b8]" started-at="2018-04-01T11:50:15Z" name="first" finished-at="2018-04-01T11:50:15Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- first -->
-        <test-method signature="second()[pri:0, instance:samples.SampleTest@351d00c0]" started-at="2018-04-01T11:43:41Z" name="second" finished-at="2018-04-01T11:43:41Z" duration-ms="3" status="FAIL">
+        <test-method signature="second()[pri:0, instance:samples.SampleTest@1ddf84b8]" started-at="2018-04-01T11:50:15Z" name="second" finished-at="2018-04-01T11:50:15Z" duration-ms="3" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [2]]]>
@@ -53,13 +53,8 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -68,7 +63,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
         </test-method> <!-- second -->
       </class> <!-- samples.SampleTest -->
     </test> <!-- test1 -->
-    <test started-at="2018-04-01T11:43:41Z" name="test2" finished-at="2018-04-01T11:43:41Z" duration-ms="0">
+    <test started-at="2018-04-01T11:50:15Z" name="test2" finished-at="2018-04-01T11:50:15Z" duration-ms="0">
     </test> <!-- test2 -->
   </suite> <!-- Suite1 -->
 </testng-results>

@@ -144,7 +144,7 @@
                   <span class="method-name">second</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [1] but found [2]
 	at samples.SampleTest.second(SampleTest.java:15)
-... Removed 35 stack frames
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -174,8 +174,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;test1&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test1&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;unit&quot;/&gt;
@@ -186,7 +186,7 @@
       &lt;class name=&quot;samples.SampleTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- test1 --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;test2&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test2&quot;&gt;
   &lt;/test&gt; &lt;!-- test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
             </pre>
@@ -248,7 +248,7 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'first')
 data.setCell(0, 2, 'samples.SampleTest')
-data.setCell(0, 3, 7);
+data.setCell(0, 3, 8);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'second')
 data.setCell(1, 2, 'samples.SampleTest')
@@ -257,7 +257,7 @@ window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 ms</span>
+              <span class="suite-total-time">Total running time: 11 ms</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -299,7 +299,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">second</span>
-                <span class="method-start">8 ms</span>
+                <span class="method-start">10 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
