@@ -1,1 +1,1 @@
-git "Kaverin Nikita" 
+Kaverin Nikita
