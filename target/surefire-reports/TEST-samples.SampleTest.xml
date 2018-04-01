@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.408" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="samples.SampleTest" time="1.369" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="E:\Programs\Java\jdk-10\bin"/>
-    <property name="sun.java.command" value="C:\Users\nik16\AppData\Local\Temp\surefire9565162410800118039\surefirebooter14515152188289826362.jar C:\Users\nik16\AppData\Local\Temp\surefire9565162410800118039 2018-04-01T14-22-35_837-jvmRun1 surefire3548003142071666988tmp surefire_014333652303614192086tmp"/>
+    <property name="sun.java.command" value="C:\Users\nik16\AppData\Local\Temp\surefire3425270786387942221\surefirebooter6718229630950630279.jar C:\Users\nik16\AppData\Local\Temp\surefire3425270786387942221 2018-04-01T14-21-01_343-jvmRun1 surefire17758117104157155915tmp surefire_08730987183697826905tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\dev\testng\oksana-chuiko\testng-maven\target\test-classes;E:\dev\testng\oksana-chuiko\testng-maven\target\classes;C:\Users\nik16\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\nik16\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nik16\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nik16\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nik16\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\nik16\AppData\Local\Temp\surefire9565162410800118039\surefirebooter14515152188289826362.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nik16\AppData\Local\Temp\surefire3425270786387942221\surefirebooter6718229630950630279.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="10+46"/>
@@ -48,7 +48,6 @@
     <property name="localRepository" value="C:\Users\nik16\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\nik16\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2018.1"/>
     <property name="java.version" value="10"/>
     <property name="user.dir" value="E:\dev\testng\oksana-chuiko\testng-maven"/>
     <property name="os.arch" value="amd64"/>
@@ -62,5 +61,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="54.0"/>
   </properties>
-  <testcase name="first" classname="samples.SampleTest" time="0.007"/>
+  <testcase name="first" classname="samples.SampleTest" time="0.018"/>
+  <testcase name="second" classname="samples.SampleTest" time="0.001">
+    <failure message="expected [1] but found [2]" type="java.lang.AssertionError">java.lang.AssertionError: expected [1] but found [2]
+	at samples.SampleTest.second(SampleTest.java:15)
+</failure>
+    <system-out><![CDATA[web
+]]></system-out>
+  </testcase>
+  <testcase name="third" classname="samples.SampleTest" time="0"/>
 </testsuite>

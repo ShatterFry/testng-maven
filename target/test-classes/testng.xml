@@ -2,7 +2,15 @@
 
 <suite name="Suite1" verbose="1" >
     <test name="test1" >
+        <groups>
+            <run>
+                <include name="unit"/>
+            </run>
+        </groups>
 
+        <classes>
+            <class name="samples.SampleTest"/>
+        </classes>
     </test>
 
     <test name="test2">
