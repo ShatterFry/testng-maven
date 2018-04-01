@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.031" tests="0" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\dev\testng\oksana-chuiko\target\test-classes;E:\dev\testng\oksana-chuiko\target\classes;C:\Users\nik16\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\nik16\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nik16\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nik16\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nik16\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="E:\Programs\Java\jdk-10\bin"/>
+    <property name="sun.java.command" value="C:\Users\nik16\AppData\Local\Temp\surefire7924466522098127770\surefirebooter13481493521595811261.jar C:\Users\nik16\AppData\Local\Temp\surefire7924466522098127770 2018-04-01T11-24-26_523-jvmRun1 surefire12892760830251884686tmp surefire_03918196670135691677tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\dev\testng\oksana-chuiko\target\test-classes;E:\dev\testng\oksana-chuiko\target\classes;C:\Users\nik16\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\nik16\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nik16\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nik16\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nik16\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nik16"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-03-20"/>
+    <property name="java.home" value="E:\Programs\Java\jdk-10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\dev\testng\oksana-chuiko"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\nik16\AppData\Local\Temp\surefire7924466522098127770\surefirebooter13481493521595811261.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10+46"/>
+    <property name="user.name" value="nik16"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="C:\Users\nik16\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\nik16\AppData\Local\Temp\"/>
+    <property name="java.version" value="10"/>
+    <property name="user.dir" value="E:\dev\testng\oksana-chuiko"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\Programs\Java\jdk-10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\nik16\bin;E:\Programs\Git\mingw64\bin;E:\Programs\Git\usr\local\bin;E:\Programs\Git\usr\bin;E:\Programs\Git\usr\bin;E:\Programs\Git\cmd;E:\Programs\ConEmu\ConEmu\Scripts;E:\Programs\ConEmu;E:\Programs\ConEmu\ConEmu;C:\ProgramData\Oracle\Java\javapath;E:\Programs\Python\Python36-32\Scripts;E:\Programs\Python\Python36-32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;E:\Programs\Git\cmd;E:\Programs\Brackets\command;E:\Programs\Skype\Phone;E:\Programs\Yarn\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\Programs\nodejs;E:\OSPanel\modules\php\PHP-7.2;C:\ProgramData\ComposerSetup\bin;C:\Users\nik16\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;E:\Programs\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;E:\Programs\Microsoft VS Code\bin;C:\Users\nik16\AppData\Local\Microsoft\WindowsApps;C:\Users\nik16\AppData\Local\Yarn\bin;C:\Users\nik16\AppData\Roaming\npm;C:\Users\nik16\AppData\Roaming\Composer\vendor\bin;E:\Programs\Git\usr\bin\vendor_perl;E:\Programs\Git\usr\bin\core_perl;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10+46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+</testsuite>
